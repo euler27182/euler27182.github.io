@@ -1,0 +1,142 @@
+html, body {
+    text-align: center;
+    }
+    p {text-align: left;}
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-image:url(background.png);
+        text-align: left;
+        font-family: Georgia, Times New Roman, Times, serif;
+        font-size: 13px;
+        color: #302d2d;
+    }
+    *
+    {
+      margin: 0 auto 0 auto;
+     text-align:left;}
+    
+    
+    html, body {
+    text-align: center;
+    }
+    p {text-align: left;}
+    
+    .dotted_line
+    {
+    background-image:url(dotted_line.png);
+    background-repeat:no-repeat;
+    clear:both;
+    width:916px;
+    height:20px;
+    }
+    
+ 
+    #main 
+    {
+    width:916px;
+    margin-top:30px;
+    margin-bottom:15px;
+    }
+    
+    
+    #main .main_left
+    {
+    width:458px;
+    background-repeat:repeat;
+    text-align: justify;
+    float:left;
+    }
+    
+    #main .main_left h1
+    {
+    padding-top:20px;
+    padding-left:40px;
+    color:#302d2d;
+    font-size:28px;
+    }
+
+    
+    
+    #main .main_right
+    {
+    padding-left:0px;
+    height:auto;
+    width:458px;
+    background-repeat:repeat-y;
+    color:#302d2d;
+    padding-bottom:20px;
+    float:left;
+    }
+    
+    #main .main_right h2
+    {
+    font:Verdana, Arial, Helvetica, sans-serif;
+    font-size:30px;
+    padding-bottom:15px;
+    text-align: center;
+    }
+    
+    #main .main_right p
+    {
+    line-height:20px;
+    text-align: center;
+    }
+    
+    
+    
+    
+    
+    
+    #page
+    {
+      margin: 0 auto 0 auto; 
+      margin-top:35px;
+      display: block; 
+      height:auto;
+      position: relative; 
+      overflow: hidden; 
+      width: 921px;
+    }
+    
+    
+    
+    #next 
+    {
+    width:916px;
+    margin-top:30px;
+    margin-bottom:15px;
+    }
+    
+    
+    #next .next_left
+    {
+    width:458px;
+    background-repeat:no-repeat;
+    text-align: justify;
+    float:right;
+    padding-left:0px;
+    height:auto;
+    width:458px;
+    background-repeat:repeat-y;
+    color:#302d2d;
+    padding-bottom:20px;
+ 
+    }
+    
+    #next .next_left h2
+    {
+        font:Verdana, Arial, Helvetica, sans-serif;
+        font-size:30px;
+        padding-bottom:15px;
+        text-align: center;
+        }
+        
+        #next .next_right p
+        {
+        line-height:20px;
+        text-align: justify;
+        }
+ 
+    
