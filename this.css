@@ -1,0 +1,36 @@
+/* emoji parameters and styling */
+.emoji.a:before 
+{
+	content: '\1F469' var(--skin,'\1F3FB') '\200D' var(--hair,'');
+}
+
+
+.emoji:before { font-size: 100px; } 
+.emoji { display: inline; padding: 1rem; }
+body { height: 100vh; display: flex; }
+article { margin: auto; border-radius: 2rem; box-shadow: 0 0 1rem rgba(0,0,0,0.2); text-align: center; padding: 1rem; }
+input { position: fixed; left: -999px; }
+ul { display: flex; list-style: none; margin: 0; padding: 0; }
+ul+ul { margin-bottom: 1rem; }
+li { padding: .5rem; }
+a { font-size: .625rem; padding: .5rem; color: #666 }
+.topl{
+    width:458px;
+    text-align: justify;
+    float:right;
+    padding-left:0px;
+    height:auto;
+    width:458px;
+    padding-bottom:20px;
+	padding-top: 100px;
+}
+.topr{
+    width:458px;
+    text-align: justify;
+    float:right;
+    padding-left:0px;
+    height:auto;
+    width:458px;
+    padding-bottom:20px;
+	padding-top: 80px;
+}
