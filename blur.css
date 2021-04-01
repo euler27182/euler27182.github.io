@@ -1,0 +1,41 @@
+/*
+   The magic happends here 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --bg-img: url("https://i.ytimg.com/vi/rMAeg2frd8A/maxresdefault.jpg");
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  body,
+  .img:hover {
+    background-image: var(--bg-img);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .fs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .blur {
+    backdrop-filter: blur(10px);
+  }
+  
+  .img:hover {
+    clip-path: circle(15% at var(--x) var(--y));
+    filter: contrast(250%);
+  }
+  
