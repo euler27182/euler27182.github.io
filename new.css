@@ -1,0 +1,53 @@
+.wrapper {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+.slider {
+    margin: 20px auto;
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: black;
+}
+.slide {
+    width: 1000px;
+    height: 600px;
+    float: left;
+    display: none;
+    box-shadow: black;
+}
+.slide:nth-of-type(odd) {
+    background-color: rgb(45, 45, 46);
+}
+.slide:nth-of-type(even) {
+    background-color: rgb(45, 45, 46);
+}
+.prev, .next {
+    color: rgb(73, 66, 66);
+    background: rgb(250, 247, 247);
+    text-decoration: none;
+    line-height: 1;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 25px;
+    box-shadow: black;
+}
+a.prev {
+    float: center;
+}
+a.next {
+    float: right;
+}
+body {
+    background: rgb(226, 221, 221);
+}
+.slide p {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+    box-shadow: blanchedalmond;
+}
